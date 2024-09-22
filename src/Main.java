@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+java.sql.SQLOutput;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -49,5 +49,33 @@ public class Main
 
         doubleQuotient = doubleOperandA / doubleOperandB;
         System.out.println("The quotient of the doubles " + doubleOperandA + " & " + doubleOperandB + " is " + doubleQuotient);
+
+        //Variables
+        double myLunchCost = 12.50;
+        System.out.println("The cost of my lunch is: " + myLunchCost);
+
+        int kidsInFam = 3;
+        System.out.println("The number of kids in my family is: " + kidsInFam);
+
+        boolean isRaining = false;
+        System.out.println("Is it raining? " + isRaining);
+
+        double gasPrice = 3.20;
+        System.out.println("The cost of gallon of gas is: " + gasPrice);
+
+        int favNum = 25;
+        System.out.println("My favorite number is: " + favNum);
+
+        double shoeSize = 9.5;
+        System.out.println("My shoe size is: " + shoeSize);
+
+        int birthMonth = 12;
+        System.out.println("My birth month is: " + birthMonth);
+
+        String user = "Jenni";
+        String lastName = "Hovekamp";
+        String fullName = user + " " + lastName;
+        System.out.println("My full name is: " + fullName);
+
     }
 }
